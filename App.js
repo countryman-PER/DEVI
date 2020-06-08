@@ -50,7 +50,8 @@ class SplashScreen extends React.Component {
 }
 
 const TabNavigator = createBottomTabNavigator(
-  //Two Screens, Home and the PEV
+  //Four screens:  Home (the splash screen), One (single charge, lines),
+  // Field (single charge, field), and Two (two charge, lines)
   {
     Home: SplashScreen,
     One: SingleCharge,
