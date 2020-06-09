@@ -25,6 +25,7 @@ export default class SingleCharge extends React.Component {// This Jawn drawin'
     }
 
     // now create random values for the two charges
+    // use this when providing a challenge for the user
     //var ec = Math.floor((Math.random() * 21) - 10);
     //var ec2 = Math.floor((Math.random() * 21) - 10);
     //ec2 = -ec2;
